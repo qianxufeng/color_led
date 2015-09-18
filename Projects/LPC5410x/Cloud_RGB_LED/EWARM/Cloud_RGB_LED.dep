@@ -1,0 +1,1985 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3017430118</fileChecksum>
+  <configuration>
+    <name>MiCOKit-3164</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>MiCOKit-LPC5410x</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\config_server\config_server_menu.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\keys.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink_delegate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mdns\mico_mdns.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\AsciiLib.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\tftp_ota\tftp_ota.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\oled.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\URLUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\core\mico_config.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\command_console\mico_cli.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\light_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\config_server\config_server.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\linkhash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\bme280_user.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_util.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\printbuf.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\hsb2rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\HTTPUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\SocketUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\rgb_led.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\debug.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_tokener.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\bme280.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MicoFogCloud.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MICOBonjour.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spi_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\fogCloud.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MICOConfigDelegate.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\arraylist.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\BME280\bme280_user.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spi_flash_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\Retarget.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MICOAppEntrance.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\fogCloud.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MICOAppDefine.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\i2cm_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\i2cs_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\hardfault.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\dc_motor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\infrared_reflective.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\crt0_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\iap.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\User\user_main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\dma_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\User\user_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MicoFogCloudDef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MicoFogCloud.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MicoFogCloudConfigServer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\crc_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\User\mico_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sysinit_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\gpio_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\fifo_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\BME280\bme280.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\fpu_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\chip_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\clock_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\adc_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_notification.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_para_storage.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_power_daemon.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\system_factory_test.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\system_misc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\RingBufferUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\SocketUtils.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\linkhash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\printbuf.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\CheckSumUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\HTTPUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\micokit_ext_mfg.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\FogCloud\FogCloudService.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\DHT11.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\FogCloud\FogCloudServiceDef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\temp_hum_sensor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\protocols\fog_cloud\FogCloud_cm4_release.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\protocols\fog_cloud\FogCloud_cm4_debug.a</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MICO.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\FogCloud\FogCloudUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\micokit_ext.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_monitor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_notification.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_para_storage.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_monitor.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_power_daemon.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\system_misc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\system_factory_test.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\dc_motor\dc_motor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\hardfault.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\infrared_reflective\infrared_reflective.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\infrared_reflective\infrared_reflective.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\dc_motor\dc_motor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\system_easylink_delegate.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\key\keys.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\lcd\AsciiLib.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_mdns.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\key\keys.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\lcd\oled.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\lcd\oled.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\tftp_ota.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\light\light_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\light\light_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\rgb_led\hsb2rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\rgb_led\hsb2rgb_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\rgb_led\rgb_led.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\rgb_led\rgb_led.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\stopwatch_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_config.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\temp_hum_sensor.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\DHT11\DHT11.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_cli.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\temp_hum_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\config_server.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_def.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\EWARM\Retarget.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\config_server_menu.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\EWARM\startup_lpc54100_EWARM.s</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\system_easylink.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\StringUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_control.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\URLUtils.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_ut.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\json_tokener.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_watchdog.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\wlan_bus_driver\wlan_bus_spi.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\json_util.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\wlan_bus_driver\wlan_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\platform_init.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\mico_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\wlan_platform_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\user_main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\arraylist.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rom_pwr_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_gpio.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\MICO\system\system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\linkhash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_tokener.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\debug.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_flash.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_nano_second.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_i2c.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_powersave.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\json_object.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rng.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rtc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\URLUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_pwm.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\printbuf.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\arraylist.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_flash.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_system.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_wlan.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_security.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\platform_assert.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverI2c.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocalelist.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\fogCloud.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverUart.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MICOAppEntrance.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverPwm.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverWdg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MICOBonjour.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverMFiAuth.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverRng.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\inmux_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\mrt_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\platform_peripheral.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MICOConfigDelegate.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\Common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MicoFogCloud.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\romapi_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sys_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cm4_simd.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverRtc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_rtos.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cmsis_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_platform.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\CMSIS\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MicoFogCloudConfigServer.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverSpi.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\gpiogroup_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverFlash.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\mailbox_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\PlatformLogging.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pmu_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\Debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\mico_socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_util.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverGpio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MicoDriverAdc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\i2c_common_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cpuctrl_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\include\MicoDrivers\MICODriverNanoSecond.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_lib_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\lpc_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\cmsis.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\bits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\iocon_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\pinint_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\include\wlan_platform_common.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\pll_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\power_control.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform_interface.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\ring_buffer.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\ritimer_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\SocketUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\rtc_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\rtc_ut.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\sct_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\sct_pwm_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\motion_sensor\motion_sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spi_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spi_common_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spim_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spis_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\stopwatch_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\syscon_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\sysinit_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\ambient_light_sensor\apds9930.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\timer_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\uart_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\utick_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\wwdt_5410x.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_init.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\wlan_platform_common.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\startup_lpc54100_EWARM.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\fogCloud.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MICOBonjour.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MICOAppEntrance.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MICOConfigDelegate.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MicoFogCloud.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\MicoFogCloudConfigServer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_gpio.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_i2c.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\config.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_mcu_powersave.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_nano_second.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_pwm.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_rng.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object_private.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_rtc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_inttypes.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_spi.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_uart.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_watchdog.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\wlan_bus_spi.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\wlan_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\arraylist.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\debug.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\json_object.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\json_tokener.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\json_util.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\linkhash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\printbuf.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\CheckSumUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\HTTPUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\RingBufferUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\StringUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\SocketUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\URLUtils.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_cli.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_config.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\config_server.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\config_server_menu.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\system_easylink.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\system_easylink_delegate.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_mdns.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\tftp_ota.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_monitor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_notification.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_para_storage.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_system_power_daemon.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\system_factory_test.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\system_misc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\crt0_EWARM.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\hardfault.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\dc_motor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\infrared_reflective.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\AsciiLib.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\keys.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\oled.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\light_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\hsb2rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\user_main.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_rng.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_rtc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_watchdog.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\wlan_bus_spi.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\wlan_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\mico_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\COM.MXCHIP.SPP.out</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\wlan_platform_common.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\Cloud_RGB_LED.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\Cloud_RGB_LED.bin</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\rgb_led.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\bme280.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\bme280_user.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\DHT11.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\temp_hum_sensor.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\micokit_ext_mfg.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\micokit_ext.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spi_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spi_flash_platform.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\Retarget.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\adc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\chip_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\clock_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\crc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\dma_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\fifo_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\gpio_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\fpu_init.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\gpiogroup_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\i2c_common_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\i2cm_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\iap.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\i2cs_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\iocon_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\pll_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\pinint_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\power_control.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\ritimer_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\ring_buffer.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\rtc_ut.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\rtc_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\sct_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\sct_pwm_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spi_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spi_common_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spim_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\spis_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\stopwatch_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\syscon_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\sysinit_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\uart_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\timer_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\utick_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\wwdt_5410x.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_adc.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_flash.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_gpio.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_i2c.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_mcu_powersave.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_nano_second.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\obj_EWARM\platform_pwm.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 385</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\config_server\config_server_menu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 384</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\easylink\system_easylink_delegate.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 386</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mdns\mico_mdns.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 387</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\tftp_ota\tftp_ota.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 388</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\URLUtils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 380</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\core\mico_config.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 382</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\StringUtils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 159</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 378</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\command_console\mico_cli.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\config_server\config_server.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\linkhash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 373</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276 275 234 212 258 255 272 260 257 230 224 231 277 366 161 200 226 227 229 225 233 232 228 295 259 296 267 270 280</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_util.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 174</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 372</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275 312 225 276 161 203 216 272 76 293 257 227 229 358 224 212 277 233 207 361 201 226 230 258 267 270 280 255 352 295 232 231 228 234</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\printbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 374</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\HTTPUtils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 376</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\CheckSumUtils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 375</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\SocketUtils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 379</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\RingBufferUtils.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 377</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\debug.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 369</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 229 276 275 272 226 225 224 277 257 227 230 352 366 295 258 207</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_tokener.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 371</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276 257 270 358 267 272 275 217 296 201 280 224 233 203 354 226 295 227 255 352 212 277 161 312 207 216 361 293 229 225 230 232 231 228 234 258 260 259 366</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\json_object.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 210</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 370</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293 203 257 207 275 227 255 259 231 276 272 217 226 295 277 234 352 258 358 260 296 232 228 224 212 216 200 361 359 354 229 225 230 366 233 267 270 280</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MicoFogCloud.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 261</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 301 52 292 275 309 307 272 260 297 209 299 304 306 82 293 257 40 291 55 296 295 276 294 302 300 303 305 310 263 311 308 251 51 90 91 266 274 259 277 258 267 270 280 281 265 283 288 84 262 290 271 285 256 287 268 286 253 255 269 252 278 264 289 284 312 31 220 221 219 222 224 233 227 229 225 230 226 232 231 228 234 223 236 238 239 242 241 247 245 248 249 250 243 244 246 192 184 181 186 182 190 189 191 188 185 187 195 193 194 196 200 201 203 199 207 217 216 212 50 86 214</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MICOBonjour.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 240</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248 259 251 227 239 255 291 308 181 311 220 222 229 244 189 82 260 312 219 233 225 275 226 276 232 228 236 241 247 250 192 182 188 307 193 354 221 266 224 230 231 234 257 223 238 242 245 249 243 246 184 186 190 191 185 187 195 194 293 50 84 40 292 274 55 272 277 296 295 258 267 270 280 281 294 265 297 283 302 288 209 263 262 299 290 300 271 301 285 303 256 304 287 305 268 309 286 310 253 269 252 278 264 289 284 306 196 200 201 203 86 90 199 207 217 216 212 366 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MICOConfigDelegate.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 347</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275 276 236 192 307 137 196 219 226 228 247 188 135 233 225 232 241 250 182 193 260 52 220 222 227 229 239 255 291 308 248 244 181 189 259 311 82 216 104 274 354 221 266 224 230 231 234 257 223 238 242 245 249 243 246 184 186 190 191 185 187 195 194 310 217 90 51 118 326 272 40 292 55 277 296 295 258 267 270 280 251 281 294 265 297 283 302 288 209 84 263 262 299 290 300 271 301 285 303 256 304 287 305 268 309 286 253 269 252 278 264 289 284 306 199 207 203 212 366 214 134 111 312 200 293 201 50 86 91 121 113 115 106 334</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\libraries\utilities\json_c\arraylist.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 257 275 312 272 295 276 258 277 217 227 352 229 225 230</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\BME280\bme280_user.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 422</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 390</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MICOAppEntrance.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 237</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 346</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280 274 251 257 266 286 260 275 281 285 284 277 276 283 288 290 287 289 82 312 259 258 267 270 272 265 84 263 262 271 256 268 253 255 269 252 278 264 52 291 292 55 296 295 294 297 302 209 299 300 301 303 304 305 309 310 311 308 306 307 293 50 91 40 220 221 219 222 224 233 227 229 225 230 226 232 231 228 234 223 236 238 239 242 241 247 245 248 249 250 243 244 246 192 184 181 186 182 190 189 191 188 185 187 195 193 194 196 200 201 203 86 90 199 207 217 216 212 51 214</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\fogCloud.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 344</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253 252 251 262 255 259 257 258 265 260 263 256 264 90 31 266 82 267 270 272 84 271 268 269 278 273 274 277 275 276 280 281 283 288 290 285 287 286 289 284 293 40 291 292 55 296 295 294 297 302 209 299 300 301 303 304 305 309 310 311 308 306 307 312 86 91 83 220 221 219 222 224 233 227 229 225 230 226 232 231 228 234 223 236 238 239 242 241 247 245 248 249 250 243 244 246 192 184 181 186 182 190 189 191 188 185 187 195 193 194 196 200 201 203 50 199 207 217 216 212 51 214</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 416</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\User\user_main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 179</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 406</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 283 287 251 277 275 276 288 289 203 290 51 274 260 257 280 281 266 285 286 284 113 82 259 258 267 270 272 265 84 263 262 271 256 268 253 255 269 252 278 264 310 199 196 291 292 55 296 295 294 297 302 209 299 300 301 303 304 305 309 311 308 306 307 207 212 86 214 137 52 118 220 221 219 222 224 233 227 229 225 230 226 232 231 228 234 223 236 238 239 242 241 247 245 248 249 250 243 244 246 192 184 181 186 182 190 189 191 188 185 187 195 193 194 217 216 90 50 312 200 293 201 40 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Demos\Cloud_RGB_LED\AppFramework\MicoFogCloudConfigServer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260 212 275 247 250 307 233 225 232 276 241 182 193 321 219 226 228 236 192 188 220 222 227 229 239 255 291 308 248 244 181 189 259 311 251 82 207 55 221 266 224 230 231 234 257 223 238 242 245 249 243 246 184 186 190 191 185 187 195 194 310 199 203 40 51 90 354 52 292 274 272 277 296 295 258 267 270 280 281 294 265 297 283 302 288 209 84 263 262 299 290 300 271 301 285 303 256 304 287 305 268 309 286 253 269 252 278 264 289 284 306 217 216 91 196 312 200 293 201 366 50 86 214</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\syscon_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 332</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 458</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\uart_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 336</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 460</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sysinit_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 333</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 459</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\BME280\bme280.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 421</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\utick_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 337</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 462</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\wwdt_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 338</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 463</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\timer_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 335</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 461</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Board\MiCOKit-LPC5410x\platform.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 275 225 255 290 221 137 257 287 289 203 288 234 266 285 286 284 134 260 277 135 227 229 224 231 276 263 262 271 256 268 253 269 252 278 264 82 238 274 251 315 230 258 247 291 233 232 228 299 300 301 303 304 305 309 310 311 308 306 307 90 111 223 242 199 207 212 272 84 318 226 295 209 259 296 267 270 280 222 245 248 249 250 243 244 246 192 184 181 186 182 190 189 191 188 185 187 195 193 194 118 104 326 220 219 236 239 241 217 216 121 113 115 106 334 292 55 281 294 265 297 283 302 196 312 200 293 201</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_monitor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 389</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_notification.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 391</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_para_storage.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 392</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\mico_system_power_daemon.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 393</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\system_misc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 395</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\crt0_EWARM.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 396</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\MICO\system\system_factory_test.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 394</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\dc_motor\dc_motor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 398</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Cortex-M4\hardfault.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\infrared_reflective\infrared_reflective.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 399</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\key\keys.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 401</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\lcd\AsciiLib.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\lcd\oled.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 402</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\light\light_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 403</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\rgb_led\hsb2rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 404</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\rgb_led\rgb_led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 420</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_pwm_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 325</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 452</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 327</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 453</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\sct_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 324</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 451</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spi_common_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 328</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 454</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spim_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 455</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\stopwatch_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 331</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 457</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\spis_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 330</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 456</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\temp_hum_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 424</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\temp_hum_sensor\DHT11\DHT11.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 423</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 426</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\MiCOKit_EXT\micokit_ext_mfg.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 425</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash_platform.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 428</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\EWARM\Retarget.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\Drivers\spi_flash\spi_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 427</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\adc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 430</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\clock_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 432</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\chip_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 431</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\EWARM\startup_lpc54100_EWARM.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 343</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\crc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 433</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fifo_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 435</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\dma_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 434</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2c_common_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 298</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 439</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\fpu_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 437</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpio_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 436</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\gpiogroup_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 438</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cm_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 440</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\i2cs_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 442</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iap.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pll_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 316</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 444</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\power_control.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 317</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 446</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\pinint_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 314</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 445</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\iocon_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 313</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 443</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 322</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 450</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 319</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 448</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\ritimer_5410x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 320</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 447</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\Libraries\rtc_ut.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 323</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 449</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 363</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 410</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 364</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 411</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 362</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 409</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\wlan_bus_driver\wlan_bus_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 365</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 412</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\wlan_bus_driver\wlan_platform.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 367</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 414</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\platform_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 340</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 413</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\mico_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 341</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 415</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\wlan_platform_common.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 342</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 417</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 339</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 464</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 350</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 466</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 465</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_nano_second.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 355</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 469</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_i2c.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 351</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 467</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_mcu_powersave.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 353</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 468</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rng.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 357</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_rtc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 360</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 408</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Platform\MCU\LPC5410x\peripherals\platform_pwm.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 356</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 470</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\Build\Cloud_RGB_LED\MiCOKit-LPC5410x\COM.MXCHIP.SPP.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 419</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
